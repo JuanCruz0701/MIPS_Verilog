@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="6(0)" T_Alu="32(0)" T_Lut="151(0)" T_Ssram="40(0)">
+    <SubModule name="mips" T_Register="6(0)" T_Alu="32(0)" T_Lut="114(0)" T_Ssram="32(0)">
+        <SubModule name="dp" T_Register="6(0)" T_Alu="32(0)" T_Lut="114(0)" T_Ssram="32(0)">
+            <SubModule name="pcreg" Register="6" T_Register="6(6)"/>
+            <SubModule name="pcadd1" Lut="7" T_Lut="7(7)"/>
+            <SubModule name="pcmux" Lut="1" T_Lut="1(1)"/>
+            <SubModule name="rf" Lut="68" Ssram="32" T_Lut="68(68)" T_Ssram="32(32)"/>
+            <SubModule name="wrmux" Lut="4" T_Lut="4(4)"/>
+            <SubModule name="alu" Alu="32" Lut="34" T_Alu="32(32)" T_Lut="34(34)"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="imem" Lut="4" T_Lut="4(4)"/>
+    <SubModule name="dmem" Lut="33" Ssram="8" T_Lut="33(33)" T_Ssram="8(8)"/>
+</Module>

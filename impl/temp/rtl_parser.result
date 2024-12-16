@@ -1,0 +1,170 @@
+[
+ {
+  "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+    "InstLine" : 7,
+    "InstName" : "mips",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+    "ModuleLine" : 14,
+    "ModuleName" : "mips",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+      "InstLine" : 23,
+      "InstName" : "c",
+      "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+      "ModuleLine" : 54,
+      "ModuleName" : "controller",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 63,
+        "InstName" : "md",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 69,
+        "ModuleName" : "maindec"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 65,
+        "InstName" : "ad",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 90,
+        "ModuleName" : "aludec"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+      "InstLine" : 27,
+      "InstName" : "dp",
+      "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+      "ModuleLine" : 108,
+      "ModuleName" : "datapath",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 126,
+        "InstName" : "pcreg",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 162,
+        "ModuleName" : "flopr"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 127,
+        "InstName" : "pcadd1",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 146,
+        "ModuleName" : "adder"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 128,
+        "InstName" : "immsh",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 151,
+        "ModuleName" : "sl2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 129,
+        "InstName" : "pcadd2",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 146,
+        "ModuleName" : "adder"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 130,
+        "InstName" : "pcbrmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 171,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 131,
+        "InstName" : "pcmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 171,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 134,
+        "InstName" : "rf",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 178,
+        "ModuleName" : "regfile"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 136,
+        "InstName" : "wrmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 171,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 138,
+        "InstName" : "resmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 171,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 139,
+        "InstName" : "se",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 157,
+        "ModuleName" : "signext"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 141,
+        "InstName" : "srcbmux",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 171,
+        "ModuleName" : "mux2"
+       },
+       {
+        "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "InstLine" : 142,
+        "InstName" : "alu",
+        "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+        "ModuleLine" : 191,
+        "ModuleName" : "alu"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+    "InstLine" : 9,
+    "InstName" : "imem",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+    "ModuleLine" : 45,
+    "ModuleName" : "imem"
+   },
+   {
+    "InstFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+    "InstLine" : 10,
+    "InstName" : "dmem",
+    "ModuleFile" : "C:/Users/Juan/Documents/DocumentosRresidencia/MIPS ENSAMBLADOR/MIPS/src/TopMips.sv",
+    "ModuleLine" : 34,
+    "ModuleName" : "dmem"
+   }
+  ]
+ }
+]
